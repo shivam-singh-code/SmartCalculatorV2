@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <table border="1" cellspacing="0">
+        <tr>
+            <td colspan="4" id="inputLabel">0</td>
+        </tr>
+        <tr>
+            <td colspan="3"><button value="All-clear" onclick="pushbtn(this);">AC</button></td>
+            <td><button value="divide" onclick="pushbtn(this);">/</button></td>
+        </tr>
+        <tr>
+            <td><button value="7" onclick="pushbtn(this);">7</button></td>
+            <td><button value="8" onclick="pushbtn(this);">8</button></td>
+            <td><button value="9" onclick="pushbtn(this);">9</button></td>
+            <td><button value="Multiply" onclick="pushbtn(this);">*</button></td>
+        </tr>
+        <tr>
+            <td><button value="4" onclick="pushbtn(this);">4</button></td>
+            <td><button value="5" onclick="pushbtn(this);">5</button></td>
+            <td><button value="6" onclick="pushbtn(this);">6</button></td>
+            <td><button value="minus" onclick="pushbtn(this);">-</button></td>
+        </tr>
+        <tr>
+            <td><button value="1" onclick="pushbtn(this);">1</button></td>
+            <td><button value="2" onclick="pushbtn(this);">2</button></td>
+            <td><button value="3" onclick="pushbtn(this);">3</button></td>
+            <td><button value="plus" onclick="pushbtn(this);">+</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button value="0" onclick="pushbtn(this);">0</button></td>
+            <td><button value="decimal" onclick="pushbtn(this);">.</button></td>
+            <td><button value="equal-to" onclick="pushbtn(this);">=</button></td>
+        </tr>
+    </table>
+    <script src="code.js"></script>
+</body>
+</html>
